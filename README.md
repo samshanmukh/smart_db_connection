@@ -4,29 +4,31 @@ Database connection with actions performing on database using Python3.
 > smartness
 
 
-## connecting.py 
+## Additional information
+-----------------------------------------------------------------------------
 
->>> This file establishes the connection with your database.
+> connecting.py 
 
->>> All the other files then share that connection to perform operations.
+>> This file establishes the connection with your database.
+>> All the other files then share that connection to perform operations.
 
 > get_data.py
 
->>> This file gets the whole data or specific data and display it.
+>> This file gets the whole data or specific data and display it.
 
 > set_data.py
 
->>> This file inserts the data into the database.
+>> This file inserts the data into the database.
 
 > update_data.py
 
->>> This file changes the data or updates the data in database.
+>> This file changes the data or updates the data in database.
 
 > delete_data.py
 
->>> This file take id number and delete the entire row from the database.
+>> This file take id number and delete the entire row from the database.
 
 > show_data.py
 
->>> This is the web file that uses falask framework to show the data on the webpage.
+>> This is the web file that uses falask framework to show the data on the webpage.
 
